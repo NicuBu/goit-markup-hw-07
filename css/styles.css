@@ -258,7 +258,7 @@ body{
     padding-right: 215px;
     gap: 30px;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
 }
  .details__container .details__title{
     display: flex;
@@ -345,7 +345,7 @@ body{
     gap: 30px;
     padding-top: 50px;
     padding-bottom: 94px;   
-
+    flex-wrap: wrap;
 }
 .ourt__card .ourt__images , .ourt__role{
     display: flex;
@@ -462,6 +462,7 @@ background-color: var(--white);
     justify-content: center;
     gap: 30px;
     padding-bottom: 94px;
+    flex-wrap: wrap;
 }
 .regular_logos li {
     background-color: var(--white);
@@ -494,7 +495,8 @@ background-color: var(--white);
 /* Footer section style */
 .footer{
     background-color: var(--dark-blue);
-    
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .footer__logo a {
@@ -588,7 +590,15 @@ background-color: var(--white);
     display: flex;
     padding-left: 215px;
     gap: 70px;
+    flex-wrap: wrap;
     
+}
+
+.postmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 .postmail__title{
@@ -598,7 +608,8 @@ background-color: var(--white);
     font-size: 14px;
     display: flex;
     justify-content: flex-start;
-    padding-top:72px ;
+    
+    
 }
 
 .postmail-email__input{
@@ -770,7 +781,8 @@ background-color: var(--white);
 
 /*clase universale section style */
 .container{
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 

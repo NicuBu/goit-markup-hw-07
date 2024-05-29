@@ -728,8 +728,8 @@ background-color: var(--white);
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
     gap: 30px;
 }
 .main__design{
@@ -994,7 +994,9 @@ background-color: var(--white);
 }
 
 
-/*@media section style */
+/*@media section max-width 1200px style */
+
+/*@media section WebStudio style */
 
 @media screen and (max-width:1200px) {
 
@@ -1116,7 +1118,7 @@ background-color: var(--white);
     height: 40px;
 }
 
-
+/*@media section Portofolio style */
 
 
 .btn .container{
@@ -1133,9 +1135,9 @@ background-color: var(--white);
 .main__images{
     width: 356px;
 }
-
-
-
-
-    
+   
 }
+
+/*@media section max-width 768px style */
+
+/*@media section WebStudio style */

@@ -51,8 +51,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 215px;
-    padding-right: 225px;
+    padding-left: 15px;
+    padding-right: 25px;
         
 
 }
@@ -197,7 +197,7 @@ body{
 }
 
 .intro__title{
-    
+    text-transform: uppercase;
     font-family: var(--primary-font);
     font-weight: 900;
     font-size: 44px;
@@ -237,7 +237,7 @@ body{
 
 /* Details section style */
 .details h5{
-    
+    text-transform: uppercase;
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 14px;
@@ -254,8 +254,8 @@ body{
 .details .container {
     display: flex;
     padding-top: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
     gap: 30px;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -588,7 +588,7 @@ background-color: var(--white);
 
 .footer .container{
     display: flex;
-    padding-left: 215px;
+    padding-left: 15px;
     gap: 70px;
     flex-wrap: wrap;
     
@@ -781,7 +781,7 @@ background-color: var(--white);
 
 /*clase universale section style */
 .container{
-    max-width: 1600px;
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -991,4 +991,151 @@ background-color: var(--white);
     transition-property: color, background-color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/*@media section style */
+
+@media screen and (max-width:1200px) {
+
+.header .container{
+    display: flex;
+    gap:80px;
+    padding-right: 0px;
+    height: 72px;
+}
+
+.header__info{
+    flex-wrap:wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap:12px;
+    padding: 0px 16px 0px 0px;
+    flex-direction: column;
+}
+.header__navigation ul{
+    gap:40px;
+    
+}
+
+.intro .container{
+    padding-top:112px ;
+    padding-bottom: 112px;
+
+
+}
+.intro__title{
+    
+    text-transform: capitalize;
+    font-weight: 700; 
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    word-spacing:-5px ;
+}
+
+.details .container{
+    row-gap: 72px;
+    column-gap:24px;
+    padding-bottom: 96px;
+}
+
+.details__icon{
+    display: none;
+}
+
+.details h5{
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.details p{
+    width: 356px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+
+.whwedo__container{
+    display: none;
+}
+.whwedo h2{
+        display: none;
+    }
+
+.ourt__container{
+    row-gap: 64px;
+    column-gap: 24px;
+}
+
+.ourt__images{
+    
+}
+
+.ourt_social{
+    padding-top:8px ;
+    padding-bottom: 16px;
+}
+
+.regular_logos{
+    padding-left: 10px;
+    padding-right: 10px;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.footer .container{
+    padding-left: 108px;
+    column-gap: 24px;
+    row-gap: 0px;
+
+}
+
+.footer__logo{
+    padding-top: 96px;
+}
+
+.footer__findus__title{
+    margin-top: 96px;
+}
+
+.footer__address{
+    margin-bottom: 0px;
+}
+
+.postmail{
+    padding-bottom: 96px;
+}
+.postmail-email__input{
+    width: 264px;
+    height: 40px;
+}
+
+.postmail-email__btn{
+    width: 165px;
+    height: 40px;
+}
+
+
+
+
+.btn .container{
+    gap: 24px;
+}
+
+.main .container{
+    padding-left: 16px;
+    padding-right: 16px;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.main__images{
+    width: 356px;
+}
+
+
+
+
+    
 }

@@ -221,7 +221,6 @@ body{
     height: 50px;
     outline: none;
     border: none;
-    cursor: pointer; 
 }
 .intro__servrequest:hover{
     transition-property: color, background-color, transform;

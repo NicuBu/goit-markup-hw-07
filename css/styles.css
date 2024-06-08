@@ -1007,14 +1007,21 @@ background-color: var(--white);
 /*@media section max-width 1158px style */
 
 /*@media section WebStudio style */
-@media screen and (min-width:1158px){
+
+
+@media screen and (max-width:1200px) {
+
+.container {
+    max-width: 768px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .js-open-menu {
     display: none;
 }
-
-}
-
-@media screen and (max-width:1158px) {
 
 .header .container{
     display: flex;
@@ -1041,6 +1048,9 @@ background-color: var(--white);
     padding-bottom: 112px;
 
 
+}
+.active::after {
+    top: 40px;
 }
 .intro__title{
     
@@ -1095,11 +1105,22 @@ background-color: var(--white);
     padding-bottom: 16px;
 }
 
+.regular{
+max-width: 768px;
+margin-left: auto;
+margin-right: auto;
+}
+
 .regular_logos{
+    
     padding-left: 10px;
     padding-right: 10px;
-    row-gap: 72px;
-    column-gap: 24px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.regular_logos li{
+    width: 226px;
+    height: 92px;
 }
 
 .footer .container{
@@ -1122,6 +1143,7 @@ background-color: var(--white);
 }
 
 .postmail{
+    margin-left: ;
     padding-bottom: 96px;
 }
 .postmail-email__input{
@@ -1159,3 +1181,21 @@ background-color: var(--white);
 /*@media section max-width 768px style */
 
 /*@media section WebStudio style */
+@media screen and (max-width:768px){
+
+.js-open-menu {
+        display: none;
+}
+
+}
+
+
+
+
+
+
+
+/*@media section max-width 428px style */
+
+/*@media section WebStudio style */
+@media screen and (max-width:428px) {}

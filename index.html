@@ -16,6 +16,9 @@
         <!-- Header section-->
          
     <header class="header">
+        <div class="header__logo-mobile">
+            <a href="/index.html"><span style="color:#2196F3 ;">Web</span>Studio</a>
+        </div>
         <div class="container"> 
         <div class="header__logo"><a href="/index.html"><span style="color:#2196F3 ;">Web</span>Studio</a>
          
@@ -41,14 +44,52 @@
                 </svg>+1 212-772-4150</a>
         </div>
         </div>
+
+        <button 
+            class="js-open-menu button button--toggle--menu" 
+            aria-expanded="false" 
+            aria-controls="mobile-menu">
+            <svg width="40px" height="40px" class="js-open-menu__btn">
+                <use href="./img/symbol-defs.svg#icon-menujs" />
+            </svg>
         
-        <button class="js-open-menu button" >A</button></button>
+        </button>
 
     </header> 
     <div class="js-menu-container">
-        <p><a>Link</a></p>
-        <p><a>Link</a></p>
-        <p><a>Link</a></p>
+        <button class="js-close-menu button button--close--menu">
+            <svg width="40px" height="40px" class="js-open-menu__btn">
+                <use href="./img/symbol-defs.svg#icon-closemenujs" />
+            </svg>
+        </button>
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="index.html">Studio</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="/contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header__info">
+        
+            <a class="header__info__mail" href="mailto:info@devstudio.com">
+                <svg class="header__icon">
+                    <use href="./img/symbol-defs.svg#icon-envelope" />
+                </svg>info@devstudio.com</a>
+        
+            <a class="header__info__tel" href="tel:+12127724150">
+                <svg class="header__icon">
+                    <use href="./img/symbol-defs.svg#icon-smartphone" />
+                </svg>+1 212-772-4150</a>
+        </div>
+        <div class="header__social__menu">
+        <ul>
+            <li><a href="#Instagram">Instagram</a></li>
+            <li><a href="#Twitter">Twitter</a></li>
+            <li><a href="#Facebook">Facebook</a></li>
+            <li><a href="#Linkedin">Linkedin</a></li>
+        </ul>
+        </div>
     </div>
 
     <!-- Hero section-->
